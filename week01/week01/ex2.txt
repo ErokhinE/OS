@@ -1,0 +1,96 @@
+    1  ls
+    2  ls -l
+    3  mkdir week01
+    4  cd week01
+    5  nano bin
+    6  cd ..
+    7  cd week01
+    8  touch ex1
+    9  ls
+   10  del ex/1
+   11  rm ex1
+   12  ls
+   13  ls-l
+   14  ls -l
+   15  touch ex1.txt
+   16  touch ex1.sh
+   17  ls
+   18  cd ..
+   19  la
+   20  cd bin
+   21  ls
+   22  ls -l
+   23  cd usr
+   24  find usr
+   25  find usr/bin/
+   26  find / -name "bin"
+   27  find / "usr/bin"
+   28  find / -name "bin"
+   29  find usr bin
+   30  find /usr/bin
+   31  find /usr/bin>/week01/ex1.txt
+   32  find /usr/bin>week01/ex1.txt
+   33  cd week01
+   34  ls
+   35  ls ex1.txt
+   36  cat ex1.txt
+   37  touch play
+   38  grep -n'gcc'ex1.txt
+   39  rm ex1.txt
+   40  ls
+   41  rm play
+   42  ls ex1.sh
+   43  cat ex1.sh
+   44  touch ex1.txt
+   45  ls
+   46  find /usr/bin -name "*gcc*"
+   47  find /usr/bin -name "*gcc*"|sort -r|tail -n 5>ex1.txt
+   48  ls
+   49  cat ex1.txt
+   50  rm ex1.txt
+   51  ls
+   52  ls|find /usr/bin -name "*gcc*"|sort -r|tail -n 5>ex1.txt
+   53  ls
+   54  cd..
+   55  cd .
+   56  cd ..
+   57  rmdir week01
+   58  mkdir ~/week01
+   59  cd week01
+   60  rm -r
+   61  rm ex1.txt
+   62  ls|find /usr/bin -name "*gcc*"|sort -r|tail -n 5>ex1.txt
+   63  ls|find /usr/bin -name "*gcc*"|sort -r>ex1.txt
+   64  cat ex1.txt
+   65  ls|find /usr/bin -name "*gcc*"|sort -r|tail -n 5>ex1.txt
+   66  tail help
+   67  tail --help
+   68  ls|find /usr/bin -name "*gcc*"|sort -r|tail -n 5>ex1.txt
+   69  ls|find /usr/bin -name "*gcc*"|sort -r|tail -n 5 >ex1.txt
+   70  cat ex1.txt
+   71  ls
+   72  ls|find /usr/bin -name "*gcc*"|sort -r|tail -n 5 >ex1.txt
+   73  ls
+   74  cat ex1.txt
+   75  nano ex1.sh
+   76  cat ed1.sh
+   77  ls
+   78  cat ex1.sh
+   79  ls|find /usr/bin -name "*gcc*"|sort -r|tail -n 5 >ex1.txt
+   80  nano ex1.sh
+   81  cat ex1.sh
+   82  history
+   83  pwd
+   84  whoami
+   85  ls-l
+   86  ls -l
+   87  touch play
+   88  ls -l
+   89  chmod 777 play
+   90  ls -l
+   91  rm play
+   92  ls -l
+   93  history >ex2.txt
+   94  ls
+   95  history
+   96  history >ex2.txt
