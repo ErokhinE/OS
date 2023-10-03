@@ -1,0 +1,10 @@
+In the conclusion I should say.
+	1. When we have n equals to 3 in the output we will have 8 processes. 
+	2. When we have n eqyals to 5 in output we will have 32 processe.
+Let us explain why. Firsly we will have main process. Then first child will be made from main
+process using fork(). In the second iteration 2 new processes will be made. First by main process and second by first child process. 
+So n = 0; 1 proc
+   n = 1; 2 proc
+   n = 2; 4 proc
+As we can see number of process grows as 2^n. Check out sentence. If we have n = 3.
+num = 2^3 = 8 As we had in our output. And n = 5. num = 2^5 = 32.
