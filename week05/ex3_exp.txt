@@ -1,0 +1,1 @@
+System time is increasing when number of threads. On the other side real time is decreasing

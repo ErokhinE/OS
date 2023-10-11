@@ -1,0 +1,2 @@
+The time execution is approximately equal to the third exercise. 
+We have mutex which blocks threads but not for a long time so it is reason why results a quite similar.

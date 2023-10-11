@@ -1,0 +1,1 @@
+Pipies are used to avoid conflicts between process. Every pipe is belong to one subscriber, so all subscribers can get a message from one publisher. 
