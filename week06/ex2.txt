@@ -1,0 +1,2 @@
+the programm will find bigger amount of numbers if we put number smaller in tri-base.
+If we change arrival time to 0 it will go from 0 to 6
