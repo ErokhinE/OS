@@ -1,0 +1,1 @@
+According to tests of the first exercise the biggest throwput has First Fit algorithm. The Best Fit has approximately equals throwput with Worst Fit. First fit has throwput bigger than Best and worst(Nearly in thrice).   
