@@ -1,0 +1,2 @@
+At the start, the values of "si" and "so" are both 0, indicating that no swapping has occurred yet. As the program continues to run, we will observe an increase in the values of "si" and "so". This increase occurs when the program allocates, fills, or frees memory. When the available physical memory becomes depleted, the "si" and "so" values may increase more rapidly as the system begins to swap data in and out.
+
