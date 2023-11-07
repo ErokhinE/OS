@@ -1,0 +1,1 @@
+Hit ratio for the Random algorithm is approximately 54%. NFU and Aging algorithm perform a little bit better. Its hit ratio around 40%.
