@@ -1,0 +1,10 @@
+Did the monitor.c program reported an event for myfile11.txt? Yes, it has been created, opened and modified.So monitor
+report this event
+
+Did the monitor.c program reported an event for myfile13.txt?
+No, it didn't. Since symbolic links themselves do not contain any data or content, modifications to the target file that the symbolic link points to will not be reflected in the symbolic link itself. Additionally, the `ionotify.h` library does not provide notifications for modifications specifically on symbolic links.
+
+Remove all duplicates of hard links to myfile11.txt only in the watched directory. After this, print the stat info of the kept hard link. Check the number of hard links and explain the difference.
+
+Before deleting there were 2 hard links (myfile11.txt, myfile12.txt). After 1 (myfile11.txt).
+
