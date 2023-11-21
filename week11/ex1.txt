@@ -1,0 +1,44 @@
+Star showing
+file2
+bin
+.
+..
+ex1
+lib
+lost+found
+lib64
+ex1.txt
+file1
+End showing
+Star showing
+lib32
+.
+media
+bin
+root
+..
+var
+mnt
+dev
+sbin
+swapfile
+opt
+usr
+run
+lib
+etc
+srv
+lib64
+cdrom
+boot
+proc
+snap
+sys
+libx32
+lost+found
+home
+tmp
+End showing
+	The first run was done from new root directory(chroot comand), so all files and directories were printed. 
+	New root directory lofsdisk and ex1.c has printed all files in it.
+	Then we execute ex1.c from old filesystem root directory and it has printed files and directories in it.
